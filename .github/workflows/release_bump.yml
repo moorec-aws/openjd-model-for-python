@@ -19,7 +19,7 @@ concurrency:
 jobs:
   Bump:
     name: Version Bump
-    uses: OpenJobDescription/.github/.github/workflows/reusable_bump.yml@mainline
+    uses: moorec-aws/.ojdgithub/.github/workflows/reusable_bump.yml@mainline
     secrets: inherit
     with:
       force_version_bump: ${{ inputs.force_version_bump }}
